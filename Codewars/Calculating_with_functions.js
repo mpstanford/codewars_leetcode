@@ -1,72 +1,32 @@
 function zero(func) {
-  if (func === undefined) {
-    return 0;
-  } else {
-    return func(0);
-  }
+  return func ? func(0) : 0;
 }
 function one(func) {
-  if (func === undefined) {
-    return 1;
-  } else {
-    return func(1);
-  }
+  return func ? func(1) : 1;
 }
 function two(func) {
-  if (func === undefined) {
-    return 2;
-  } else {
-    return func(2);
-  }
+  return func ? func(2) : 2;
 }
 function three(func) {
-  if (func === undefined) {
-    return 3;
-  } else {
-    return func(3);
-  }
+  return func ? func(3) : 3;
 }
 function four(func) {
-    if (func === undefined) {
-    return 4;
-  } else {
-    return func(4);
-  }
+  return func ? func(4) : 4;
 }
 function five(func) {
-    if (func === undefined) {
-    return 5;
-  } else {
-    return func(5);
-  }
+  return func ? func(5) : 5;
 }
 function six(func) {
-    if (func === undefined) {
-    return 6;
-  } else {
-    return func(6);
-  }
+  return func ? func(6) : 6;
 }
 function seven(func) {
-    if (func === undefined) {
-    return 7;
-  } else {
-    return func(7);
-  }
+  return func ? func(7) : 7;
 }
 function eight(func) {
-    if (func === undefined) {
-    return 8;
-  } else {
-    return func(8);
-  }
+  return func ? func(8) : 8;
 }
 function nine(func) {
-    if (func === undefined) {
-    return 9;
-  } else {
-    return func(9);
-  }
+  return func ? func(9) : 9;
 }
 
 function plus(secondValue) {
