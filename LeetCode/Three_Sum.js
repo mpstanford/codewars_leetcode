@@ -21,7 +21,6 @@ var threeSum = function(nums) {
         allTriplets.push([nums[firstIndex], nums[secondIndex], nums[thirdIndex]]);
         secondIndex++;
         while (nums[secondIndex] === nums[secondIndex - 1] && secondIndex < thirdIndex) {
-          debugger;
           secondIndex++;
         }
       }
