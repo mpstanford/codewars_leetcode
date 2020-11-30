@@ -10,7 +10,6 @@ var threeSum = function(nums) {
     var thirdIndex = nums.length - 1;
 
     while (secondIndex < thirdIndex) {
-      debugger;
       var sum = nums[firstIndex] + nums[secondIndex] + nums[thirdIndex];
 
       if (sum < 0) {
