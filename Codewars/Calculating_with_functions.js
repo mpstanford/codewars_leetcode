@@ -1,5 +1,12 @@
 function zero(func) {
   return func ? func(0) : 0;
+
+  // this is the same as:
+  // if (func === undefined) {
+  //   return 0;
+  // } else {
+  //   return func(0);
+  // }
 }
 function one(func) {
   return func ? func(1) : 1;
