@@ -15,6 +15,11 @@ var increasingBST = function(root) {
 
   var traverseTree = function(currentNode, parentNode) {
     //if currentNode === parentNode.right && currentNode.left !== null
+    if (currentNode === parentNode.right && currentNode.left !== null) {
+      parentNode.right = currentNode.left;
+      parentNode.right.right = currentNode;
+      currentNode.left = null;
+    }
 
     //if currentNode.left !== null
   }
